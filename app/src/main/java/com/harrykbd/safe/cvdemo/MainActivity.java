@@ -11,7 +11,7 @@ import android.view.WindowManager;
 public class MainActivity extends Activity {
     private static final String TAG = "MainActivity";
     RecyclerView mEffectList;
-    private final static String[] mList = {"Blur", "Gaussian", "Canny", "Contour", "Sobel", "Segmentation"};
+    private final static String[] mList = {"Blur", "Gaussian", "Canny", "Contour", "Sobel", "Segmentation", "Warping", "Sharpen"};
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
